@@ -1,0 +1,11 @@
+# ignore Xcode user data
+xcuserdata
+
+# ignore VIM swap files
+.*.swp
+
+# ignore annoying Mac OS DS stores
+*.DS_Store
+
+# build dir
+/build
