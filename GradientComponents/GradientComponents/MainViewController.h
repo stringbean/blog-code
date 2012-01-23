@@ -16,6 +16,8 @@
     IBOutlet GradientControl *countryControl;
 }
 
+- (IBAction) customControlTapped:(id)aSender;
+- (IBAction) ibControlTapped:(id)aSender;
 - (IBAction) countryTapped:(id)aSender;
 
 @end

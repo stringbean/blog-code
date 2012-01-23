@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27DF9D6F14CDDF260097EDB3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DF9D6E14CDDF260097EDB3 /* Default.png */; };
+		27DF9D7214CDDF2C0097EDB3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DF9D7114CDDF2C0097EDB3 /* Default@2x.png */; };
+		27DF9D7414CDE5FA0097EDB3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DF9D7314CDE5FA0097EDB3 /* logo.png */; };
+		27DF9D7614CDE6000097EDB3 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27DF9D7514CDE5FF0097EDB3 /* logo@2x.png */; };
 		27F81C2114CD9DAF0058FA10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F81C2014CD9DAF0058FA10 /* UIKit.framework */; };
 		27F81C2314CD9DAF0058FA10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F81C2214CD9DAF0058FA10 /* Foundation.framework */; };
 		27F81C2514CD9DAF0058FA10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F81C2414CD9DAF0058FA10 /* CoreGraphics.framework */; };
@@ -24,7 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27F81C1C14CD9DAF0058FA10 /* GradientComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DF9D6E14CDDF260097EDB3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		27DF9D7114CDDF2C0097EDB3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		27DF9D7314CDE5FA0097EDB3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../logo.png; sourceTree = "<group>"; };
+		27DF9D7514CDE5FF0097EDB3 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "../logo@2x.png"; sourceTree = "<group>"; };
+		27F81C1C14CD9DAF0058FA10 /* Gradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F81C2014CD9DAF0058FA10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27F81C2214CD9DAF0058FA10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27F81C2414CD9DAF0058FA10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,7 +83,7 @@
 		27F81C1D14CD9DAF0058FA10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27F81C1C14CD9DAF0058FA10 /* GradientComponents.app */,
+				27F81C1C14CD9DAF0058FA10 /* Gradients.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +149,10 @@
 		27F81C5714CDB0950058FA10 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				27DF9D7514CDE5FF0097EDB3 /* logo@2x.png */,
+				27DF9D7314CDE5FA0097EDB3 /* logo.png */,
+				27DF9D7114CDDF2C0097EDB3 /* Default@2x.png */,
+				27DF9D6E14CDDF260097EDB3 /* Default.png */,
 				27F81C5814CDB0B80058FA10 /* gb.png */,
 				27F81C5914CDB0B80058FA10 /* gb@2x.png */,
 			);
@@ -164,7 +176,7 @@
 			);
 			name = GradientComponents;
 			productName = GradientComponents;
-			productReference = 27F81C1C14CD9DAF0058FA10 /* GradientComponents.app */;
+			productReference = 27F81C1C14CD9DAF0058FA10 /* Gradients.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,6 +214,10 @@
 				27F81C3714CD9DAF0058FA10 /* MainViewController.xib in Resources */,
 				27F81C5A14CDB0B80058FA10 /* gb.png in Resources */,
 				27F81C5B14CDB0B80058FA10 /* gb@2x.png in Resources */,
+				27DF9D6F14CDDF260097EDB3 /* Default.png in Resources */,
+				27DF9D7214CDDF2C0097EDB3 /* Default@2x.png in Resources */,
+				27DF9D7414CDE5FA0097EDB3 /* logo.png in Resources */,
+				27DF9D7614CDE6000097EDB3 /* logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +310,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradientComponents/GradientComponents-Prefix.pch";
 				INFOPLIST_FILE = "GradientComponents/GradientComponents-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gradients;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -305,7 +321,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradientComponents/GradientComponents-Prefix.pch";
 				INFOPLIST_FILE = "GradientComponents/GradientComponents-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gradients;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
